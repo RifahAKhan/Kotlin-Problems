@@ -5,8 +5,8 @@ fun main(){
     var num = readLine()?.toInt()!!
     while(num != 0){
         var digit = num % 10
-        sum = sum + digit
-        num = num / 10
+        sum += digit
+        num /= 10
     }
     println("Sum of the digits is ${sum}")
 }
